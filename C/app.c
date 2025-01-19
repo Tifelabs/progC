@@ -1,14 +1,15 @@
 #include <stdio.h>
-;
-int main(){
-    int a; int b; int sum;
 
-    a = 20;
-    b = 40;
-    sum = a + b;
+int main(void) {
+    int i = 4;
+    int j = 0; // Correctly initialize the integer
 
-    printf("The sum of %i and %i is %c", a, b, sum);
+    printf("Enter number: ");
+    scanf("%d", &j); 
 
-    return 0;
+    
 
+    printf("You entered: %d\n", j); 
+    
+     return 0;
 }
